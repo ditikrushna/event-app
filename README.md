@@ -7,6 +7,7 @@
 - [About the Project](#about-the-project)
 - [Functionalities](#functionalities)
 - [Snapshot](#snapshot)
+- [Live Link](#livelink)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Contributors](#contributors)
@@ -22,11 +23,18 @@ Demonstration of how to pull data from google spreadsheets using [React](https:/
 - You can modify (add , delete or update) the spreadsheets and the data will automatically reflect in front end which is built using React . 
 
 ### Snapshot 
-**Spreadsheets's snapshot :** 
+
+**1. Spreadsheets's snapshot :** 
  <img target="_blank" src="https://github.com/ditikrushna/event-app/blob/master/spreadsheets.JPG">
 
-**React App :** 
+
+**2. React App :** 
  <img target="_blank" src="https://github.com/ditikrushna/event-app/blob/master/reactapp.JPG">
+
+### Live Link 
+- React App : [Link](https://ditikrushna.github.io/event-app/)
+- Google Spreadsheet:[Link](https://docs.google.com/spreadsheets/d/10muZ2nuiHanqMCPr8rzIGuwh8K8OCEjrSPni9q9gGHA/edit?usp=sharing)
+
 
 ### Technologies Used : 
 
