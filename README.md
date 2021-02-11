@@ -23,10 +23,10 @@ Demonstration of how to pull data from google spreadsheets using [React](https:/
 
 ### Snapshot 
 - Spreadsheets's snapshot : 
-
+ <img target="_blank" src="https://github.com/ditikrushna/event-app/blob/master/spreadsheets.JPG">
 
 - React App : 
-
+ <img target="_blank" src="https://github.com/ditikrushna/event-app/blob/master/reactapp.JPG">
 
 ### Technologies Used : 
 
