@@ -1,25 +1,40 @@
 import logo from './logo.svg';
 import './App.css';
-
+import React, { useEffect, useState, Fragment } from "react";
+import Tabletop from "tabletop";
+import Header from './Header'
+import Grid from '@material-ui/core/Grid';
+import EventCard from './EventCard'
+import Card from './Card'
 function App() {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    Tabletop.init({
+      key: "10muZ2nuiHanqMCPr8rzIGuwh8K8OCEjrSPni9q9gGHA",
+      simpleSheet: true
+    })
+      .then((data) => setData(data))
+      .catch((err) => console.warn(err));
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header/>
+      <ul>
+      {data.map((item, i) => (
+       
+        <Fragment key={i}>
+          <Card 
+          eventName={item.EventName} 
+          location={item.Location}
+          date1={item.StartTime}
+          date2={item.EndTime}
+          />
+        </Fragment>
+      ))}
+    </ul>
+    </>
   );
 }
-
 export default App;
