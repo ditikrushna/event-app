@@ -22,10 +22,10 @@ Demonstration of how to pull data from google spreadsheets using [React](https:/
 - You can modify (add , delete or update) the spreadsheets and the data will automatically reflect in front end which is built using React . 
 
 ### Snapshot 
-- Spreadsheets's snapshot : 
+**Spreadsheets's snapshot :** 
  <img target="_blank" src="https://github.com/ditikrushna/event-app/blob/master/spreadsheets.JPG">
 
-- React App : 
+**React App :** 
  <img target="_blank" src="https://github.com/ditikrushna/event-app/blob/master/reactapp.JPG">
 
 ### Technologies Used : 
