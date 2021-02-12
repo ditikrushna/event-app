@@ -5,6 +5,7 @@
 ## Table of Contents
 
 - [About the Project](#about-the-project)
+- [Motivation](#motivation) 
 - [Functionalities](#functionalities)
 - [Snapshot](#snapshot)
 - [Live Link](#livelink)
@@ -18,6 +19,9 @@
 ### About the Project
 
 Demonstration of how to pull data from google spreadsheets using [React](https://reactjs.org/) and [Tabletop.js](https://github.com/jsoma/tabletop).
+
+### Motivation 
+The purpose of this project was to get familiar with React and Tabletop.js. 
 
 ### Functionalities 
 - You can modify (add , delete or update) the spreadsheets and the data will automatically reflect in front end which is built using React . 
